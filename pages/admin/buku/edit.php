@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
     if (isset($_POST['judul_buku']))
     {
         $judulBuku = $_POST['judul_buku'];
-        $pengarangBuku = $_POST['pengaramg_buku'];
+        $pengarangBuku = $_POST['pengarang_buku'];
         $penerbitBuku = $_POST['penerbit_buku'];
         $tahun = $_POST['tahun'];
         $gambar_lama = $_POST['gambar_lama'];

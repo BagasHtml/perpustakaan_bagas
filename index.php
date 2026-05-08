@@ -25,7 +25,7 @@
 
         <section>
             <div class="gambar">
-                <img src="pages/assets/logo.png" alt="logo" width="350px" height="350px">
+                <img src="pages/assets/wallpaperflare.com_wallpaper.jpg" alt="logo" width="1000px" height="250px">
             </div>
         </section>
 

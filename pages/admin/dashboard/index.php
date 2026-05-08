@@ -20,7 +20,7 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Maxime rerum fuga culpa provident tenetur cum blanditiis laudantium sequi. Eos quis tempore voluptatibus <br> voluptate laudantium consequuntur ut praesentium aliquid possimus eius?
                 </p>
 
-                <img src="assets/logo.png" alt="">
+                <img src="../../assets/LOGO SMK TB AGS-2024-03.png" alt="gambar">
             </div>
         </section>
     </div>
