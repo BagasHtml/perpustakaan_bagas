@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="pages/style/main.css">
 </head>
 <body>
     <div class="weapper">
@@ -25,7 +26,7 @@
 
         <section>
             <div class="gambar">
-                <img src="pages/assets/wallpaperflare.com_wallpaper.jpg" alt="logo" width="1000px" height="250px">
+                <img src="https://i.ytimg.com/vi/8YyDG_wXYW4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBoYz9HO_Zhjuk4RjzlrEvUR9VZ8Q" alt="logo" width="1000px" height="250px" class="main-img">
             </div>
         </section>
 
@@ -33,15 +34,21 @@
             <div class="profil">
                 <h2>Profil</h2>
                 <table>
-                    <td><img src="pages/assets/logo2.png" alt=""></td>
-                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Deleniti fugit harum, soluta repudiandae accusamus inventore optio earum, officiis id, <br> reprehenderit quidem voluptates fuga in enim sapiente eaque labore dolores sequi.</td>
+                    <td><img src="pages/assets/LOGO SMK TB AGS-2024-03.png" width="150px" alt="" class="logo-tb"></td>
+                    <td>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Deleniti fugit harum, soluta repudiandae accusamus inventore optio earum, officiis id, <br> reprehenderit quidem voluptates fuga in enim sapiente eaque labore dolores sequi.
+                        </p>
+                    </td>
                 </table>
             </div>
         </section>
 
         <section>
             <div class="footer">
-                <footer>&copf;2026 bagas Tresna Nanda MS</footer>
+                <footer>
+                    <p>&copf;2026 bagas Tresna Nanda MS</p>
+                </footer>
             </div>
         </section>
     </div>

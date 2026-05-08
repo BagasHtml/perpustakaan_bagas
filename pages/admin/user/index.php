@@ -121,7 +121,7 @@ $result = mysqli_query($db, $sql);
     <div class="view-user">
         <h3>Data User</h3>
 
-        <table>
+        <table border="1">
             <thead>
                 <tr>
                     <th>No</th>

@@ -1,0 +1,87 @@
+body {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+.navbar {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.25s ease-in-out;
+    background-color: blanchedalmond;
+}
+
+.navbar:hover {
+    text-shadow: 0px 0px 15px yellow;
+    font-size: 18px;
+}
+
+.navbar1 {
+    position: relative;
+    left: -45%;
+}
+
+.navbar2 {
+    position: relative;
+    right: -45%;
+}
+
+.main-img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    object-fit: cover;
+}
+
+.profil {
+    text-align: justify;
+    background-color: aqua;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+td {
+    position: relative;
+    top: -30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weapper {
+    background-color: aquamarine;
+    position: relative;
+    height: 750px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    border-radius: 10px;
+    height: 930px;
+}
+
+
+
+
