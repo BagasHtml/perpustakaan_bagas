@@ -48,7 +48,7 @@ if (isset($_GET['keyword'])) {
     $search = $_GET['keyword'];
 }
 
-$que = "SELECT * FROM tbl_buku WHERE judul_buku '%$search%' OR pengarang_buku '%$search%' OR penerbit_buku '%$search%'";
+$que = "SELECT * FROM tbl_buku WHERE judul_buku LIKE '%$search%' OR pengarang_buku LIKE '%$search%' OR penerbit_buku LIKE '%$search%'";
 $result = $db->query($que);
 ?>
 <!DOCTYPE html>
@@ -94,7 +94,7 @@ $result = $db->query($que);
 
                     <label for="">Cover Buku lama</label><br>
                     <input type="hidden" name="gambar_lama" value="<?= $row['gambar'] ?>" id="">
-                    <img src="assets/<?= $row['gambar'] ?>" alt="">
+                    <img src="assets/<?= $row['gambar'] ?>" width="150px" alt="">
                     <input type="file" name="gambar" />
                     <br><br>
 

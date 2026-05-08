@@ -25,11 +25,11 @@
                 case 'user':
                     include 'admin/user/index.php';
                 break;
-                case 'edit_user':
-                    include 'admin/user/edit.php';
+                case 'edit':
+                    include 'admin/user/index.php';
                 break;
-                case 'delete_user':
-                    include 'admin/user/delete.php';
+                case 'hapus':
+                    include 'admin/user/index.php';
                 break;
                 case 'buku':
                     include 'admin/buku/index.php';
@@ -39,7 +39,10 @@
                 break;
                 case 'delete_buku':
                     include 'admin/buku/delete.php';
-                exit();
+                break;
+                default:
+                    include 'admin/dashboard/index.php';
+                break;
             }
             ?>
         </div>
