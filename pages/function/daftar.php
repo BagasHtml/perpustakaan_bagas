@@ -11,12 +11,20 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
         $password = $_POST['password'];
 
         $que = "INSERT INTO tbl_user (nama_user, username, password, create_at) VALUES ('$nama_user','$username', '$password', NOW())";
-        
-        if ($db->query($que)) {
-            echo '<script>
-            window.alert("Yey Register Berhasil!");
-            window.location.href = "../auth/login.php";
-            </script>';
+
+        try {
+            
+            if ($db->query($que)) {
+                echo '<script>
+                window.alert("Yey Register Berhasil!");
+                window.location.href = "../auth/login.php";
+                </script>';
+            } catch (mysqli_sql_exception $e) {
+                echo '<script>
+                window.alert("Username Duplicate");
+                history.back();
+                </script>';
+            }
         }
     }
 }
